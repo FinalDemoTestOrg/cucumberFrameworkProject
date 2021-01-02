@@ -6,7 +6,7 @@ pipeline{
                     
                     steps{
                             echo "code checkout"
-                            git branch: 'main', url: 'https://github.com/yashashree07/jenkinsfiletesting.git'
+                           git branch: 'firstbranch', url: 'https://github.com/FinalDemoTestOrg/cucumberFrameworkProject.git'
                     }
                 
                 
