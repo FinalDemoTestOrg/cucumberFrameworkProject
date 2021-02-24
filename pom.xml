@@ -7,6 +7,9 @@
   <groupId>TestCaseProjectNewEclipse</groupId>
   <artifactId>testcaseprjneweclipse</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>war</packaging> 
+  <name>testcaseprjwar</name>
+	
 
   <name>testcaseprjneweclipse</name>
   <!-- FIXME change it to the project's website -->
@@ -61,7 +64,8 @@
    </dependencies>
 
   <build>
-  	<sourceDirectory>src/main/java</sourceDirectory>
+	  <finalname>testcaseprjwar</finalname>
+	  <sourceDirectory>src/main/java</sourceDirectory>
           <testSourceDirectory>src/main/java</testSourceDirectory> 
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
