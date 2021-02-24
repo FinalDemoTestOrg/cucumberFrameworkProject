@@ -58,12 +58,7 @@
     	<version>1.2.5</version>
     </dependency>
     <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
-   <dependency>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-war-plugin</artifactId>
-    <version>3.3.1</version>
-  </dependency>
-  </dependencies>
+   </dependencies>
 
   <build>
   	<sourceDirectory>src/main/java</sourceDirectory>
@@ -84,7 +79,15 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.8.0</version>
         </plugin>
-        <plugin>
+	      
+	 <plugin>
+		  <groupId>org.apache.maven.plugins</groupId>
+                 <artifactId>maven-war-plugin</artifactId>
+                 <version>3.3.1</version>
+	</plugin>
+
+	      
+	<plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
           <executions>
