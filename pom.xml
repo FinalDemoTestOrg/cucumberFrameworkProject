@@ -64,7 +64,7 @@
    </dependencies>
 
   <build>
-	  <finalname>testcaseprjwar</finalname>
+	 
 	  <sourceDirectory>src/main/java</sourceDirectory>
           <testSourceDirectory>src/main/java</testSourceDirectory> 
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
